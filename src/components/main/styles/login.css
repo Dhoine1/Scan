@@ -1,0 +1,163 @@
+.login_main {
+    display: flex;
+    justify-content: center;
+}
+
+.login_left_field {
+    font-family: ferry;
+    font-size: 40px;
+    text-align: left;
+    margin: 25px;
+}
+
+.login_right_field {
+    width: 430px;
+    height: 523px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 25px 25px 0px 25px;
+}
+
+.login_img_characters_mobile {
+    display: none;
+}
+
+.login_form_lock {
+    width: 75px;
+    height: 92px;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+.login_enter_register {
+    font-family: inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.login_enter {
+    text-align: center;
+    color: #7CE3E1;
+    padding: 20px 10px 0px 20px;
+    text-decoration: underline;
+}
+
+.login_register {
+    text-align: center;
+    color: black;
+    opacity: 40%;
+    padding: 20px 20px 0px 10px;
+    text-decoration: underline;
+}
+
+.login_form_field {
+    margin: 35px;
+    color: #949494;
+    font-family: inter;
+    font-size: 16px;
+}
+
+.login_input {
+    margin: 15px 0px 15px 0px;
+    width: 360px;
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    padding: 0.375rem 0.75rem;
+    font-size: 16px;
+    font-family: inter;
+}
+
+.login_input_bad {
+    margin: 15px 0px 15px 0px;
+    width: 360px;
+    height: 43px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inter;
+}
+
+
+#login_error {
+    color: #FF5959;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.login_button {
+    background-color: #5970FF;
+    color: white;
+    border-radius: 5px;
+    width: 360px;
+    height: 59px;
+    text-decoration: none;
+    font-family: inter;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.login_button:hover {
+    background-color: #92a0ff;
+    color:bisque;
+    cursor: pointer;
+}
+
+.login_button:disabled {
+    background-color: grey;
+    cursor: auto;
+}
+
+.login_remake_password {
+    color: #5970FF;
+    text-align: center;
+    margin-top: 15px;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.login_socialnet {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .login_left_field {
+        font-size: 22px;
+    }
+
+    .login_main{
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .login_left_field{
+        margin-bottom: 0px;
+    }
+
+    .login_img_characters {
+        display: none;
+    }
+
+    .login_img_characters_mobile {
+        display:block;
+        margin-top: 30px;
+    }
+
+    .login_form_lock {
+        width: 75px;
+        height: 92px;
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
+}

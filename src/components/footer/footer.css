@@ -1,0 +1,36 @@
+.footer{
+    background-color: #7CE3E1;
+    display: flex;
+    justify-content: space-between;
+    font-family: inter;
+    color: white;
+}
+
+.footer_logo {
+    width: 141px;
+    height: 141px;
+    margin-left: 60px;
+    margin-top: -2px;
+}
+
+.footer_info {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+.footer_copyright {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer_logo {
+        margin: 10px;
+        width: 111px;
+        height: 111px;
+    }
+
+    .footer_info {
+        margin: 10px;
+    }
+}

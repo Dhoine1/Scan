@@ -1,0 +1,221 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 141px;
+    height: 141px;
+    margin-left: 60px;
+    margin-top: -24px;
+}
+
+.header_menu {
+    font-family: inter;
+    padding: 35px;
+    justify-content: center;
+}
+
+.header_menu_small {
+    font-family: inter;
+    display: none;
+    text-align: center;
+}
+
+.header_menu a {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.header_menu_small a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.header_menu_small_grey {
+    opacity: 40%;
+}
+
+.header_menu a:hover {
+    color: #7CE3E1;
+}
+
+.header_menu_small a:hover {
+    color: black;
+}
+
+.header_login {
+    font-family: inter;
+    font-size: 14px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header_table {
+    border-collapse: collapse;
+}
+
+.header_td_button {
+    padding-left: 25px;
+}
+
+.header_td_stick {
+    font-size: 30px;
+    color: #029491;
+}
+
+.header_td_text {
+    padding-right: 25px;
+}
+
+.header_td_text a {
+    text-decoration: none;
+    color: black;
+    opacity: 40%;
+}
+
+.header_td_text a:hover {
+    opacity: 100%;
+}
+
+.header_enter_button {
+    background-color: #7CE3E1;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.header_enter_button:hover {
+    background-color: #029491;
+}
+
+.header_rightside_afterlogin {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_td_profile_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_td_profile_div_text {
+    font-family: inter;
+    font-size: 14px;
+    color: black;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.header_td_profile_div_text_exit {
+    font-family: inter;
+    font-size: 10px;
+    color: black;
+    opacity: 40%;
+    text-decoration: none;
+}
+
+.header_td_profile_div_ava {
+    width: 32px;
+    height: 32px;
+}
+
+.header_loader {
+    margin-right: 150px;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px; 
+    right: 30px;
+    /* top: 36px;  */
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #029491;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #029491;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+@media screen and (max-width: 1200px) {
+    .header_menu_small {
+        display: block;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .header_td_profile {
+        display: none;
+    }
+
+    .header_table {
+        display: none;
+    }
+
+    .header_info {
+        margin-right: 25px;
+    }
+}

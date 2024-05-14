@@ -1,0 +1,251 @@
+h1 {
+    font-family: ferry;
+    font-size: 60px;
+    text-align: left;
+}
+
+h3 {
+    font-family: ferry;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.rezultTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.rezultSmalltext {
+    font-family: inter;
+    font-size: 20px;
+}
+
+.rezultMiddle {
+    margin: 60px; 
+}
+
+.rezultSmallgraytext {
+    font-family: inter;
+    font-size: 18px;
+    color: #949494;
+}
+
+.rezult_histogramm {
+    display: grid;
+    grid-template-columns: 124px auto;
+    border: 2px solid #029491;
+    border-radius: 5px;
+    margin: 60px;
+}
+
+.rezult_histogramm_info {
+    color:white;
+    background-color: #029491;
+    font-family: inter;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#rezult_histogramm_block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 140px);
+    grid-template-rows: auto;
+}
+
+.rezult_histogramm_searched {
+    color: black;
+    background-color: white;
+    font-family: inter;
+    font-size: 20px;
+    margin: 10px;
+    padding-right: 10px;
+    width: 133px;
+    text-align: center;
+    border-right: 2px solid #949494;
+}
+
+.rezultBottom {
+    margin: 60px;
+}
+
+.rezultBlocks {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 700px);
+    grid-template-rows: auto;
+}
+
+.rezultBlock {
+    width: 641px;
+    height: 694px;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.rezultBlockTitle {
+    font-size: 26px;
+}
+
+.rezultTeg {
+    background-color: #FFB64F;
+    font-size: 12px;
+    align-content: center;
+    text-align: center;
+    width: 157px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.rezultBlockimg {
+    width: 581px;
+    height: 158px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.rezultBlockText {
+    font-size: 16px;
+    opacity: 50%;
+}
+
+.rezultBlockBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rezultBlockButton{
+    background-color: #7CE3E1;
+    color: black;
+    width: 223px;
+    height: 47px;
+    border-radius: 5px;
+    padding: 15px 20px 15px 30px;
+    text-decoration: none;
+}
+
+.rezultBlockButton a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: inter;
+    color:black
+}
+
+.rezultBlockButton:hover {
+    background-color: #92a0ff;
+    color:bisque;
+    cursor: pointer;
+}
+
+.rezult_more {
+    width: 305px;
+    height: 59px;
+    background-color: #5970FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: inter;
+    padding: 15px 20px 15px 30px;
+}
+
+.rezultBottomButton {
+    text-align: center;
+}
+
+.rezult_more:hover {
+    cursor: pointer;
+    background-color: #92a0ff;
+}
+
+.rezult_Nomore {
+    visibility: hidden;
+}
+
+.rezult_loader {
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .rezultText h1{
+        font-size: 28px;
+    }
+
+    .rezultTop {
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rezultImg{
+        width: 350px;
+        height: 233px;
+    }
+
+    .rezultMiddle h3 {
+        font-size: 28px;
+    }
+
+    .rezultMiddle{
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rezultBottom h3 {
+        font-size: 28px;
+    }
+
+    .rezultBottom {
+        text-align: center;
+    }
+
+    .rezultBlock {
+        width: 335px;
+        height: 709px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .rezultBlockimg {
+        width: 297px;
+        height: 158px;
+    }
+
+    .rezultBlockTitle {
+        font-size: 19px;
+    }
+
+    .rezultSmallgraytext {
+        font-size: 14px;
+
+    }
+
+    .rezultBlockButton{
+        width: 195px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 10px 10px 10px 30px;
+        text-decoration: none;
+    }
+
+    .rezultBlockButton a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .rezultBlockText {
+        font-size: 12px;
+    }
+}

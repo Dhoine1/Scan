@@ -1,0 +1,15 @@
+@font-face {
+    src: url(./fonts/ferry_black.otf);
+    font-family: 'ferry';
+}
+
+@font-face {
+    src: url(./fonts/Inter-Medium.otf);
+    font-family: 'inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
